@@ -17,7 +17,7 @@ For more in-depth configuration, we recoomend cloning the [Armroy kustomize patc
 
 ### Prerequisites
 
-A K8s cluster with:
+A Kubernetes cluster with:
 * LoadBalancer service
 * Default storage class
 
