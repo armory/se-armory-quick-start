@@ -17,7 +17,7 @@ resources:
 images:
 - name: spinnaker-operator
   newName: armory/armory-operator
-  newTag: 1.2.5
+  newTag: 1.2.5 # Update this to maintain version
 - name: halyard
   newName: armory/halyard-armory
-  newTag: 1.10.1-2669348-operator
+  newTag: 1.10.1-2669348-operator # Update this to maintain version
