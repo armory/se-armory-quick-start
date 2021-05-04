@@ -25,10 +25,10 @@ A K8s cluster with:
 
 ### Install Armory Operator and CRDs
 
-<code>kubectl apply -k https://github.com/armory/se-armory-quick-start/tree/main/operator</code>
+<code>kubectl apply -k https://github.com/armory/se-armory-quick-start/operator</code>
 
 ### Deploy Minimal Spinnaker
 
-<code>kubectl apply -k https://github.com/armory/se-armory-quick-start/tree/main/spinnaker</code>
+<code>kubectl apply -k https://github.com/armory/se-armory-quick-start/spinnaker</code>
 
 After deploying the spinnaker manifest, use <code>watch kubectl get spinsvc spinnaker -n spinnaker</code> to monitor the status. Once you see the url populated, use your web browser to access the Spinnaker UI. From there, you will be able to create an application, a pipeline, and a deploy manifest stage for the cluster you've installed Spinnaker on.
