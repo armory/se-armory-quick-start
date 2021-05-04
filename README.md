@@ -38,4 +38,5 @@ After deploying the spinnaker manifest, use <code>watch kubectl get spinsvc spin
 ### Cleanup
 
 ```kubectl delete -k https://github.com/armory/se-armory-quick-start/operator```
+
 ```kubectl delete -k https://github.com/armory/se-armory-quick-start/spinnaker```
