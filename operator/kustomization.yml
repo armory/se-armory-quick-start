@@ -5,6 +5,7 @@ kind: Kustomization
 namespace: spinnaker-operator
 
 resources:
+  - operator-ns.yml
   - spinnaker.armory.io_spinnakerservices_crd.yaml
   - spinnaker.io_spinnakeraccounts_crd.yaml
   - operator-ns.yaml
