@@ -17,7 +17,7 @@ For more in-depth configuration, we recommend cloning the [Armroy kustomize patc
 
 If you do not have a K8s cluster that meets these minimum prerequisites, you can use the quick start with [Minnaker](https://github.com/armory/minnaker). Minnaker  automatically installs self-contained Kubernetes and Spinnaker on a single linux VM.
 
-### Prerequisites
+## Prerequisites
 
 A Kubernetes cluster with:
 * LoadBalancer service
@@ -25,11 +25,11 @@ A Kubernetes cluster with:
 
 ## Install Armory Operator and deploy Armory Spinnaker
 
-### Install Armory Operator and CRDs
+#### Install Armory Operator and CRDs
 
 ```kubectl apply -k https://github.com/armory/se-armory-quick-start/operator```
 
-### Deploy Minimal Spinnaker
+#### Deploy Minimal Spinnaker
 
 ```kubectl apply -k https://github.com/armory/se-armory-quick-start/spinnaker```
 
