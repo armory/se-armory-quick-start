@@ -23,7 +23,7 @@ A K8s cluster with:
 
 ## Install Armory Operator and deploy Armory Spinnaker
 
-### Deploy Armory Operator and CRDs
+### Install Armory Operator and CRDs
 
 <code>kubectl apply -f https://github.com/natereid72/armory-operator/raw/main/armory-operator.yaml</code>
 
