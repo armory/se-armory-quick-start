@@ -15,4 +15,4 @@ resources:
   - service_account.yaml
 
 patchesStrategicMerge:
-  - operator_version.yaml
+  - patch-operator_version.yaml
