@@ -21,7 +21,7 @@ A K8s cluster with:
 * LoadBalancer service
 * Default storage class
 
-## Install Armory Operator, deploy Spinnaker, deploy a pod from a pipeline.
+## Install Armory Operator and deploy Armory Spinnaker
 
 ### Deploy Armory Operator and CRDs
 
