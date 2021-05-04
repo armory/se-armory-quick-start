@@ -15,4 +15,9 @@ resources:
   - service_account.yaml
 
 #patchesStrategicMerge:
-  - patch-operator_version.yaml
+#  - patch-operator_version.yaml
+
+images:
+- name: the-my-app
+- newName: my.docker.registry.com/my-project/my-app
+  newTag: test
