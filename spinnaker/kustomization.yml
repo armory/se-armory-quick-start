@@ -6,7 +6,7 @@ kind: Kustomization
 namespace: spinnaker
 
 resources:
-  - spinnakernamespace.yml
+  - spinnaker-ns.yml
   - spinnakerservice.yml             # (Mandatory). Base spinnaker manifest
   - infrastructure/minio.yml         # Self hosted minio, a S3 compatible data store
   - accounts/kubernetes/spin-sa.yml  # Kubernetes service account needed by patch-kube.yml
