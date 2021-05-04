@@ -26,4 +26,6 @@ A K8s cluster with:
 
 To deploy Spinnaker, clone the Armory Kustommize repo
 
-<code>git clone https://github.com/armory/spinnaker-kustomize-patches.git</code>
+<code>kubectl apply -k https://github.com/natereid72/armory-operator</code>
+
+After deploying the spinnaker manifest, use <code>watch kubectl get spinsvc spinnaker -n spinnaker</code> to monitor the status. Once you see the url populated, use your web browser to access the Spinnaker UI.
