@@ -1,1 +1,18 @@
----
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+# Namespace where spinnaker operator will be installed.
+namespace: spinnaker-operator
+
+resources:
+  - spinnaker.armory.io_spinnakerservices_crd.yaml
+  - spinnaker.io_spinnakeraccounts_crd.yaml
+  - operator-ns.yaml
+  - deployment.yaml
+  - halyard_config_map.yaml
+  - role.yaml
+  - role_binding.yaml
+  - service_account.yaml
+
+patchesStrategicMerge:
+  - operator_version.yaml
