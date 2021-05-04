@@ -15,4 +15,4 @@ patchesStrategicMerge:
   - persistence/patch-minio.yml   # (Mandatory). Persistence to store spinnaker applications and pipelines
   - accounts/kubernetes/patch-kube.yml  # Kubernetes accounts
   - expose/patch-lb.yml
-  - core_config/patch-version.yml
+  - core_config/patch_version.yml
