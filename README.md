@@ -11,9 +11,9 @@
 
 ### Overview
 
-This Spinnaker quick start creates a minimaly functional instance of Spinnaker with Armory components (This deployment of Armory Spinnaker requires an entitlement license from Armory for commercial use). You will be able to deploy K8s manifests to your Spinnaker install cluster. It provides no security configuration and leverages an insecure object store. It is intended to prvoide you with a quick and easy method to tour the Spinnaker management console, and the ability to configure a basic pipeline manifest deploy stage.
+This Spinnaker quick start creates a minimally functional instance of Spinnaker with Armory components (This deployment of Armory Spinnaker requires an entitlement license from Armory for commercial use). You will be able to deploy K8s manifests to your Spinnaker install cluster. It provides no security configuration and leverages an insecure object store. It is intended to provide you with a quick and easy method to tour the Spinnaker management console, and the ability to configure a basic pipeline manifest deploy stage.
 
-For more in-depth configuration, we recoomend cloning the [Armroy kustomize patch repo](https://github.com/armory/spinnaker-kustomize-patches) for Spinnaker. If you do not have a K8s cluster that meets the minimum prerequisites, you can use the quick start scripts for [Minnaker](https://github.com/armory/minnaker) with a linux host you provision. Minnaker is the easiest method for deploying thorughly functional Armory Spinnaker as it includes a number of helper scripts.
+For more in-depth configuration, we recommend cloning the [Armroy kustomize patch repo](https://github.com/armory/spinnaker-kustomize-patches) for Spinnaker. If you do not have a K8s cluster that meets the minimum prerequisites, you can use the quick start scripts for [Minnaker](https://github.com/armory/minnaker) with a linux host you provision. Minnaker is the easiest method for deploying thoroughly functional Armory Spinnaker as it includes a number of helper scripts.
 
 ### Prerequisites
 
