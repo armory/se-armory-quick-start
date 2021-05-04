@@ -11,7 +11,7 @@
 
 ### Overview
 
-There are a few options to quickly install Armory Spinnaker. This Spinnaker quick start creates a minimally functional instance of Spinnaker with Armory components (This deployment of Armory Spinnaker requires an entitlement license from Armory for commercial use). You will be able to deploy K8s manifests to your Spinnaker install cluster. It provides no security configuration and leverages an insecure object store. It is intended to provide you with a quick and easy method to tour the Spinnaker management console and ability to configure a basic pipeline.
+There are a few options to quickly install Armory Spinnaker. This Spinnaker quick start creates a minimally functional instance of Spinnaker with Armory components (This deployment of Armory Spinnaker requires an entitlement license from Armory for commercial use). It provides no security configuration and leverages an insecure object store. It is intended to provide you with a quick and easy method to tour the Spinnaker management console and ability to configure a basic pipeline.
 
 For more in-depth configuration, we recommend cloning the [Armroy kustomize patch repo](https://github.com/armory/spinnaker-kustomize-patches) for Spinnaker. The kustomize repo includes shell scripts to simplify the process of deploying and configuring Spinnaker. 
 
