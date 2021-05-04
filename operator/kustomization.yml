@@ -14,5 +14,5 @@ resources:
   - role_binding.yaml
   - service_account.yaml
 
-patchesStrategicMerge:
-  - patch-operator_version.yaml
+#patchesStrategicMerge:
+#  - patch-operator_version.yaml
