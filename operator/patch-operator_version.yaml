@@ -8,3 +8,5 @@ spec:
       containers:
         - name: spinnaker-operator
           image: armory/armory-operator:1.2.5
+        - name: halyard
+          image: armory/halyard-armory:1.10.1-2669348-operator
