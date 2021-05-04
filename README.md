@@ -13,7 +13,7 @@
 
 This Spinnaker quick start creates a minimaly functional instance. You will be able to deploy K8s manifests to your Spinnaker install cluster. It provides no security configuration and leverages an insecure object store. It is intended to prvoide you with a quick and easy method to tour the Spinnaker management console, and the ability to configure a basic pipeline manifest deploy stage.
 
-For more in-depth configuration, we recoomend cloning the Armroy kustomize patch repo for Spinnaker. If you do not have a K8s cluster that meets the minimum prerequisites, you can use the quick start scripts for Minnaker with a linux host you provision. Minnaker is the easiest method for deploying Armory Spinnaker as it includes a number of helper scripts.
+For more in-depth configuration, we recoomend cloning the [Armroy kustomize patch repo](https://github.com/armory/spinnaker-kustomize-patches) for Spinnaker. If you do not have a K8s cluster that meets the minimum prerequisites, you can use the quick start scripts for Minnaker with a linux host you provision. Minnaker is the easiest method for deploying Armory Spinnaker as it includes a number of helper scripts.
 
 ### Prerequisites
 
@@ -29,8 +29,6 @@ A K8s cluster with:
 <code>kubectl apply -f https://github.com/natereid72/armory-operator/raw/main/armory-operator.yaml</code>
 
 ### Deploy Minimal Spinnaker
-
-To deploy Spinnaker, clone the Armory Kustommize repo
 
 <code>kubectl apply -k https://github.com/natereid72/armory-operator</code>
 
