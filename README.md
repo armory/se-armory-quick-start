@@ -9,7 +9,7 @@
 ------------------
 # Armory Spinnaker Quick Start
 
-## Overview
+### Overview
 
 This Spinnaker quick start creates a minimaly functional instance and deploys Spinnaker with Armory components (This deployment of Armory Spinnaker requires an entitlement license from Armory for commercial use). You will be able to deploy K8s manifests to your Spinnaker install cluster. It provides no security configuration and leverages an insecure object store. It is intended to prvoide you with a quick and easy method to tour the Spinnaker management console, and the ability to configure a basic pipeline manifest deploy stage.
 
