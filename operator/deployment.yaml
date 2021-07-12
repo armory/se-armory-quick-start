@@ -18,6 +18,8 @@ spec:
           image: armory/armory-operator:1.2.7
           command:
             - spinnaker-operator
+          args:
+            - --disable-admission-controller
           imagePullPolicy: IfNotPresent
           env:
             - name: POD_NAME
