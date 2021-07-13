@@ -27,16 +27,24 @@ A Kubernetes cluster with:
 
 #### Install Armory Operator and CRDs
 
-```kubectl apply -k https://github.com/armory/se-armory-quick-start/operator```
+```
+kubectl apply -k https://github.com/armory/se-armory-quick-start/operator
+```
 
 #### Deploy Minimal Spinnaker
 
-```kubectl apply -k https://github.com/armory/se-armory-quick-start/spinnaker```
+```
+kubectl apply -k https://github.com/armory/se-armory-quick-start/spinnaker
+```
 
 After deploying the spinnaker manifest, use <code>watch kubectl get spinsvc spinnaker -n spinnaker</code> to monitor the status. Once you see the url populated, use your web browser to access the Spinnaker UI at htttps://<LB Address>:9000 (As services may still be creating, you may need to refresh your browser until you are able to create an application). From there, you will be able to create an application, a pipeline, and a deploy manifest stage for the cluster you've installed Spinnaker on.
 
 ## Cleanup/Remove
 
-```kubectl delete -k https://github.com/armory/se-armory-quick-start/operator```
+```
+kubectl delete -k https://github.com/armory/se-armory-quick-start/operator
+```
 
-```kubectl delete -k https://github.com/armory/se-armory-quick-start/spinnaker```
+```
+kubectl delete -k https://github.com/armory/se-armory-quick-start/spinnaker
+```
