@@ -31,6 +31,12 @@ A Kubernetes cluster with:
 kubectl apply -k https://github.com/armory/se-armory-quick-start/operator
 ```
 
+Use watch to monitor the operator pod until 2/2 containers show ready before proceeding. Use ```CTRL``` + ```C``` to exit:
+
+```
+watch kubectl get po -n spinnaker-operator
+```
+
 #### Deploy Minimal Spinnaker
 
 ```
